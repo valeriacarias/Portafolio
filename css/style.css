@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;700;800;900&display=swap');
+
+:root{
+	--color-rosado: #eea4a3;
+	--color-cafe: #927c70;
+	--color-gris: #686868;
+	--color-gris-claro: #878282;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	color: var(--color-gris);
+}
+#hero{
+	background-image: url("file:///C:/DW1/portafolio/img/fondo-inicio-v-studio.jpg");
+	background-size: cover;
+	background-position: top center;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 350px 350px 300px 350px;
+}
+.nav-link{
+	color: var(--color-cafe)!important;
+	letter-spacing: 2px;
+}
+.nav-link:hover{
+	color: var(--color-rosado)!important;
+}
+#navbar .active{
+	color: var(--color-rosado)!important;
+	font-weight: 800;
+}
+h1{
+	color: var(--color-rosado);
+	font-weight: 700;
+	font-size: 80px;
+	margin-top: 30px;
+}
+h2{
+	font-size: 35px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	line-height: 43px;
+	margin: 15px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+#hero p{
+	color: var(--color-gris);
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.btn-gris{
+	background-color: #fff;
+	color: var(--color-gris-claro);
+	border-color: var(--color-gris-claro);
+	padding: 15px 20px;
+	border-radius: 5px;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin: 10px;
+	text-transform: uppercase;
+}
+.btn-gris:hover{
+	background-color: var(--color-rosado);
+	color: #fff;
+}
+.btn-rosado{
+	background-color: var(--color-rosado);
+	color: #fff;
+	padding: 15px 20px;
+	border-radius: 5px;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin: 10px;
+	text-transform: uppercase;
+}
+.btn-rosado:hover{
+	background-color: #fff;
+	color: var(--color-rosado);
+	border-color: var(--color-rosado);
+}
+#portfolio, #services{
+	background-color: var(--color-rosado);
+	text-align: center;
+	color: #fff;
+	padding: 55px;
+}
+#portfolio img{
+	margin: 0;
+}
+#about{
+	background-color: #fff;
+	text-align: center;
+	padding: 55px;
+}
+#about h3{
+	color: var(--color-rosado);
+}
+#about h5{
+	margin-bottom: 50px;
+	font-size: 45px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	line-height: 35px;
+	margin: 35px 0 10px 0; 
+	color: var(--color-rosado);
+}
+#about h6{
+	margin-bottom: 30px;
+	font-size: 18px;
+	font-weight: 400;
+	color: var(--color-rosado);
+}
+#about p{
+	color: var(color-gris);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+	margin: 5px 300px 30px 300px;
+}
+#about img{
+	width: 180px;
+	border-radius: 50%;
+	margin-bottom: 30px;
+}
+
+#contact{
+	text-align: center;
+	content-align: center;
+	padding: 40px;
+}
+#contact h2{
+	margin-bottom: 50px;
+}
+hr{
+	width: 2px;
+	color: var(--color-rosado);
+}
+#services i{
+	background-color: #fff;
+	color: var(--color-rosado);
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 35px;
+	text-align: center;
+	font-size: 40px;
+	margin: 10px 0;
+}
+#services h4{
+	text-align: left;
+	font-weight: 500;
+}
+#services p{
+	text-align: left;
+	font-size: 14px;
+	margin-bottom: 40px;
+	padding: 0 40px 10px 0;
+}
+.img-zoom img{
+	transition: all 0.5s ease-in-out;
+}
+.img-zoom:hover img{
+	transform: scale(1.2);
+	transition: all 0.5s ease-in-out;
+}
+
+
